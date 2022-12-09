@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@200;300;400;500;600;700;800&family=Poppins:wght@500;600;700&display=swap');
 
 :root {
-    --primary-color: ;
-    --light: rgb(235, 235, 231);
-    --dark: #1a1a1a;
+    --primary-color: #5762D5;
+    --light: #F1F2EB;
+    --dark: #32292F;
+    --mid: #575363;
     --title: 'Dosis', 'Poppins', Helvetica, sans-serif;
     --header: 'Bebas Neue', Impact, sans-serif;
     --body: 'Poppins', Helvetica, sans-serif;
@@ -13,4 +14,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+#avatar {
+    max-width: 80px;
+}
+
+#navbar-toggle {
+    text-align: center;
+}
+
+.navbar-brand, .nav-link {
+    font-family: var(--header);
+    font-size: 2.4rem;
+    color: var(--mid) !important;
 }
