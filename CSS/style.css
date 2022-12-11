@@ -1,5 +1,7 @@
+/* FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@200;300;400;500;600;700;800&family=Poppins:wght@500;600;700&display=swap');
 
+/* VARIABLES */
 :root {
     --primary-color: #5762D5;
     --light: #F1F2EB;
@@ -10,10 +12,16 @@
     --body: 'Poppins', Helvetica, sans-serif;
 }
 
+/* RESET */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* NAVIGATION */
+nav {
+    max-height: 15vh;
 }
 
 #avatar {
@@ -22,10 +30,60 @@
 
 #navbar-toggle {
     text-align: center;
+    background-color: #FFFFFF;
 }
 
 .navbar-brand, .nav-link {
     font-family: var(--header);
     font-size: 2.4rem;
     color: var(--mid) !important;
+}
+
+/* HERO / INTRO */
+.row {
+    align-items: center;
+    height: 85vh;
+}
+
+.intro-text {
+    background-color: #FFFFFF;
+    font-family: var(--title);
+    text-align: center;
+    color: var(--dark);
+}
+
+.standout {
+    background-color: var(--primary-color);
+    color: var(--light);
+    font-weight: 700;
+    padding: 5px 10px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.subtitle {
+    font-size: 2rem;
+}
+
+.hero img {
+    max-width: 500px;
+    object-fit: cover;
+}
+
+
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 987px) {
+    .intro-text {
+        margin-bottom: -8rem;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .intro-img {
+        /* REDUCE HERO IMAGE SIZE */
+    }
+    
 }
