@@ -14,9 +14,10 @@
 </head>
 
 <body>
-    <!-- HEADER / HERO -->
+    <!-- HEADER -->
     <header id="home">
         <section class="hero container-fluid">
+
             <!-- NAVIGATION -->
             <nav class="navbar navbar-expand-md navbar-light">
                 <a href="#" class="navbar-brand">
@@ -38,8 +39,9 @@
               </nav>
         </section>
 
-        <section class="hero ">
-            <div class="row justify-content-center no-gutters">
+        <!-- HERO / HOME -->
+        <section class="hero">
+            <div class="row intro justify-content-center no-gutters">
                 <div class="intro-text jumbotron col-12-sm col-6-md col-6-lg">
                     <h1>Hello, I'm <span class="standout">Alyssa Argento</span></h1>
                     <p class="subtitle">Web developer. Lifelong learner.</p>
@@ -52,9 +54,9 @@
     <main>
         <!-- WORK -->
         <section id="work">
-            <div class="cards container-fluid">
+            <div class="card-container container-fluid">
                 <h2 class="lgt-txt">Work</h2>
-                <div class="row row-cols-1 row-cols-md-2 row-cols lg-3 justify-content-around align-items-center">
+                <div class="row cards row-cols-1 row-cols-md-2 row-cols lg-3 justify-content-around align-items-center">
                     
                         <div class="card">
                             <a class="card-link" href="https://agia.github.io/Bootstrap-Portfolio">
@@ -119,17 +121,47 @@
         <!-- SKILLS / ABOUT -->
         <section id="about">
             <h2 class="clr-txt">About</h2>
-            <div class="row justify-content-around">
-                <article class="skills col-sm-12 col-md-7">
-                    <p>Below you can find a overview of all the skills I gained experience with during my bootcamp education:</p>
-                    <div class="row row-cols-4">
-                        i*
+            <div class="row justify-content-center" id="about-container">
+    
+                <article class="about-text">
+                    <p>Despite being relatively new to web development, I feel I've finally found the career that I was meant me. In no other profession have I found the perfect mix of analytic logic and accuracy, mixed with creativity in problem-solving and design. In the past, it has always felt like one or the other was neglected, or under-utilised until I found web development</p>
+                </article>
+                <article class="skills">
+                    <p>Below you can find a selection of the relevant skills and technologies I've gained experience with so far:</p>
+                
+                    <div class="skill-list row row-cols-sm-2 justify-content-center">
+                        <ul class="list-group">
+                            <li class="list-group-item list-group-item-primary ">Languages & Frameworks</li>
+                            <li class="list-group-item">HTML</li>
+                            <li class="list-group-item">CSS</li>
+                            <li class="list-group-item">Javascript</li>
+                            <li class="list-group-item">ES6</li>
+                            <li class="list-group-item">React</li>
+                            <li class="list-group-item">Node</li>
+                            <li class="list-group-item">JQuery</li>
+                            <li class="list-group-item">Bootstrap</li>
+                            <li class="list-group-item">JSON</li>
+                            <li class="list-group-item">AJAX</li>
+                        </ul>
+
+                        <ul class="list-group">
+                            <li class="list-group-item list-group-item-primary">Methods & Tools</li>
+                            <li class="list-group-item">APIs</li>
+                            <li class="list-group-item">DOM</li>
+                            <li class="list-group-item">Test-Driven Development</li>
+                            <li class="list-group-item">Behaviour-Driven Development</li>
+                            <li class="list-group-item">ObjectOriented Development</li>
+                            <li class="list-group-item">Agile Development</li>
+                            <li class="list-group-item">Version Control (Git)</li>
+                            <li class="list-group-item">UX Design</li>
+                            <li class="list-group-item">APIs</li>
+                            <li class="list-group-item">Working collaboratively</li>
+                        </ul>
+        
                     </div>
                 </article>
-                <article class="about-txt col-sm-12 col-md-4">
-
-                </article>
-            </div>
+    
+            </div>  
         </section>
 
         <footer>
