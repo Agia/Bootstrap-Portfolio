@@ -19,9 +19,13 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+}
+
 /* NAVIGATION */
 nav {
-    max-height: 15vh;
+    max-height: 12vh;
 }
 
 #avatar {
@@ -39,10 +43,14 @@ nav {
     color: var(--mid) !important;
 }
 
+#logo-text {
+    /* DELETE IF NOT USED */
+}
+
 /* HERO / INTRO */
 .row {
     align-items: center;
-    height: 85vh;
+    height: 88vh;
 }
 
 .intro-text {
@@ -72,6 +80,52 @@ h1 {
     object-fit: cover;
 }
 
+/* WORK */
+.cards {
+    background-color: var(--primary-color);
+    padding: 50px;
+}
+
+h2 {
+    font-family: var(--header);
+    text-align: right;
+    margin-bottom: 30px;
+    font-size: 3.4rem;
+}
+
+.lgt-txt {
+    color: var(--light);
+}
+
+.clr-txt {
+    color: var(--primary-color);
+}
+
+/* CARDS */
+.card {
+    padding: 15px;
+    margin: 10px 0px;
+    background-color: var(--light);
+    border-left: 5px var(--primary-color) solid;
+    border-right: 5px var(--primary-color) solid;
+}
+
+.card-link {
+    text-decoration: none;
+}
+
+.card-title {
+    color: var(--primary-color);
+    font-family: var(--header);
+    font-size: 2rem;
+    text-align: right;
+}
+
+.card-text {
+    font-family: var(--body);
+    color: var(--mid);
+    text-align: right;
+}
 
 
 /* MEDIA QUERIES */
@@ -82,8 +136,10 @@ h1 {
 }
 
 @media only screen and (max-width: 550px) {
-    .intro-img {
-        /* REDUCE HERO IMAGE SIZE */
+    .intro-text {
+        display: none;
     }
-    
+    .intro-img {
+        max-width: 80vw;
+    } 
 }
