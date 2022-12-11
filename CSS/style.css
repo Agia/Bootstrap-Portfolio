@@ -19,15 +19,10 @@
     box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-}
-
 /* NAVIGATION */
 nav {
-    max-height: 12vh;
+    margin-bottom: 15vh;
 }
-
 #avatar {
     max-width: 80px;
 }
@@ -43,14 +38,14 @@ nav {
     color: var(--mid) !important;
 }
 
-#logo-text {
-    /* DELETE IF NOT USED */
-}
 
 /* HERO / INTRO */
+#home {
+    height: 100vh;
+}
+
 .row {
     align-items: center;
-    height: 88vh;
 }
 
 .intro-text {
@@ -75,10 +70,15 @@ h1 {
     font-size: 2rem;
 }
 
+.hero {
+    /* margin-bottom: 15vh; */
+}
+
 .hero img {
     max-width: 500px;
     object-fit: cover;
 }
+
 
 /* WORK */
 .cards {
@@ -100,6 +100,7 @@ h2 {
 .clr-txt {
     color: var(--primary-color);
 }
+
 
 /* CARDS */
 .card {
@@ -127,19 +128,25 @@ h2 {
     text-align: right;
 }
 
+/* ABOUT */
+#about {
+    background-color: var(--light);
+}
+
 
 /* MEDIA QUERIES */
-@media only screen and (max-width: 987px) {
+@media only screen and (max-width: 1002px) {
     .intro-text {
-        margin-bottom: -8rem;
+        margin-top: -5rem;
+        margin-bottom: -3rem;
+    }
+    .hero img {
+        margin-right: 7vw;
     }
 }
 
 @media only screen and (max-width: 550px) {
-    .intro-text {
-        display: none;
+    .hero img {
+        max-width: 50vw;
     }
-    .intro-img {
-        max-width: 80vw;
-    } 
 }
