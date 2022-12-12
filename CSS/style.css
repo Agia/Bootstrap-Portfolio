@@ -160,11 +160,54 @@ h2 {
 #contact {
     background-color: var(--primary-color);
 }
+
+.contact-content {
+    text-align: center;
+}
+
+.contact-headers {
+    font-family: var(--header);
+    color: var(--primary-color);
+    background-color: var(--light);
+    font-size: 2.7rem;
+    text-align: right;
+}
+
+.links {
+    text-align: left;
+    padding-left: 30px;
+}
+
+.contact-text {
+    font-family: var(--body);
+    /* color: var(--light); */
+    text-align: left;
+    padding-left: 30px;
+}
+
+.contact-links {
+    text-decoration: none;
+    list-style: none;
+    padding: 15px;
+}
+
+.contact-links img {
+    max-width: 5rem;
+}
+
+#link-list {
+    padding-top: 10px;
+}
+
+#icon-envelope {
+    max-width: 4.3rem;
+}
+
 .about-text {
     font-family: var(--body);
     max-width: 90vw;
     margin: 20px 40px;
-    text-align: center;
+    text-align: right;
 }
 
 /* MEDIA QUERIES */
