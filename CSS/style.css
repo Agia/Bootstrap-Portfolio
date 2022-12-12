@@ -1,5 +1,5 @@
 /* FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@200;300;400;500;600;700;800&family=Poppins:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@200;300;400;500;600;700;800&family=Poppins:wght@500;600;700&family=Great+Vibes&family=Luckiest+Guy&family=Monoton&family=Staatliches&display=swap');
 
 /* VARIABLES */
 :root {
@@ -25,6 +25,11 @@ nav {
 }
 #avatar {
     max-width: 80px;
+}
+
+#logo {
+    font-family: 'Staatliches';
+    font-size: 3rem;
 }
 
 #navbar-toggle {
@@ -128,11 +133,11 @@ h2 {
 }
 
 /* ABOUT */
-#about {
+#skills {
     background-color: var(--light);
 }
 
-.about-text, .skills {
+.skills {
     font-family: var(--body);
     max-width: 90vw;
     margin: 20px 40px;
