@@ -251,6 +251,10 @@ i:hover {
     text-align: right;
 }
 
+#about-header {
+    padding-right: 20px;
+}
+
 /* MEDIA QUERIES */
 @media only screen and (max-width: 1002px) {
     .intro-text {
