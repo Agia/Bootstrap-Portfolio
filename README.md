@@ -16,38 +16,24 @@ Below are screenshots of the deployed site, at different viewport sizes, which g
 
 ### Full Screen
 
-<!-- TO BE ADDED -->
-![Screenshot of a portfolio webpage.](./images/screenshot-full.jpeg)
-
-----
-
-### Tablet
-
-<!-- TO BE ADDED -->
-![Screenshot of mobile-width webpage](./images/screenshot-tablet.jpeg)
+![Screenshot of a portfolio webpage.](./images/screenshot-full.png)
 
 ----
 
 ### Mobile
 
-<!-- TO BE ADDED -->
-![Screenshot of mobile-width webpage](./images/screenshot-mobile.jpeg)
+![Screenshot of mobile-width webpage](./images/screenshot-mobile.png)
 
 ----
 
 ## Credits
 
-Much gratitude to the following for their fine images, which I have repurposed to make my portfolio look far less barren, and generic:
-
-- [Moose Photos](https://www.pexels.com/@moose-photos-170195/)
-- [Linda Eller Shein](https://www.pexels.com/photo/red-and-yellow-stop-sticker-1749900/)
-- [Aleksander Pasaric](https://www.pexels.com/photo/what-is-this-is-all-real-text-with-yellow-background-3280211/)
-- [Khairul Niezam](https://www.pexels.com/@niezam/)
-- [Mason Cook](https://www.pexels.com/photo/blue-light-mask-2091399/)
-- [Ash @ModernAfflatus](https://www.pexels.com/photo/yellow-and-black-striped-3662579/)
+Thanks to [Placehold](https://placehold.co) for their fine customizable placeholder images, which have put to good use in making the portfolio section look far less barren.
 
 Thanks also to the following for the icons used in the Contact section:
 
-- [Icons8](https://icons8.com)
+- [Simple Line Icons](https://simplelineicons.github.io/)
+
+Final thanks to Ian Lunn and the collection of box-shadow effects found in [Hover.css](https://github.com/IanLunn/Hover/), which I used to add the delightful grow effect to the avatar/logo.
 
 ----
