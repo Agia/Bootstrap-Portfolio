@@ -247,16 +247,18 @@ h2 {
     padding-top: 10px;
 }
 
+li > a:hover {
+    text-decoration: none;
+}
+
 i {
     font-size: 4.4rem;
     color: var(--light);
-    text-decoration: none;
-    padding: 10px;
-    
+    padding: 10px;    
 }
 
 i:hover {
-    border-left: 10px var(--light) solid;
+    border: 3px var(--light) solid;
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 }
 
