@@ -10,7 +10,7 @@ This repo, and it's linked deployed site, provides an easily-accessible referenc
 
 ## Usage
 
-The repo is deployed on GitHub Pages, and can be viewed by clicking [**here**](https://agia.github.io/bootstrap-portfolio), which will take you to the live site in it's most current iteration.
+The repo is deployed on GitHub Pages, and can be viewed by clicking [**here**](https://agia.github.io/Bootstrap-Portfolio/), which will take you to the live site in it's most current iteration.
 
 Below are screenshots of the deployed site, at different viewport sizes, which gives an overview of the sites appearance, and demonstrates some of the responsive changes.
 
